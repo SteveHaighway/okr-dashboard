@@ -1,4 +1,4 @@
-/* Minimal styling */
-.objectives-row .card { transition: transform 0.08s ease, box-shadow 0.08s ease; }
-.objective-card:hover { transform: translateY(-2px); box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.08); }
-.badge { font-weight: 600; }
+/* Small polish + clamp to keep minis stable visually */
+.objectives-row .card { transition: transform .08s ease, box-shadow .08s ease; }
+.objective-card:hover { transform: translateY(-2px); box-shadow: 0 .5rem 1rem rgba(0,0,0,.08); }
+.kr-card .plotly-graph-div { height: 160px !important; }
